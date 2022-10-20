@@ -1,51 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
 }
-html, body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
 }
-body{
-    background-color: rgb(216, 240, 252);
+body {
+  background-color: rgb(216, 240, 252);
 }
-h1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.5rem;
-    max-width: 25ch;
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  max-width: 25ch;
 }
-.topBG{
-    height: 15%;
-    margin: 15px auto;
-    background-color: rgb(51, 97, 174);
-    box-shadow: 2px 2px 30px black;
-    text-align: center;
-    color:rgb(141, 212, 220)
+.super-wrapper {
+  width: 100%;
 }
-.top{
-    margin: 15px auto;
-    width: 40%;
-    padding: 0;
+.firstBand {
+  background-color: rgb(37, 93, 171);
 }
-.middleBG{
-    height: 40%;
-    margin: 15px auto;
-    background-color: rgb(183, 202, 222);
-    box-shadow: 2px 2px 30px black;
+.secondBand {
+  background-color: rgb(154, 58, 32);
 }
-.middle{
-margin: 15px auto;
-width: 60vw;
-height: 60vh;
-padding: 0;
+.thirdBand {
+  background-color: rgb(179, 224, 237);
 }
-model-viewer{
-    height: 100%;
-    width: 100%;
+.content-wrapper {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 350px;
+}
+.content-wrapper-3D {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1024px;
+  height: 500px;
+}
+model-viewer {
+  height: 100%;
+  width: 100%;
 }
