@@ -1,0 +1,52 @@
+:root{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+html, body, main, article, section, nav, div, span, img, figure, figcaption, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100vw;
+    /*border: 2px dashed black;*/
+    margin: 0;
+}
+.thegrid{
+    background: linear-gradient(rgb(125, 191, 215), rgb(189, 237, 255));
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.thegrid>*{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.mediaContainer{
+    background: url('./cloudBG.webp') left top/contain no-repeat
+    ;
+    min-height: 70vh;
+    grid-column: span 3;
+}
+.textContainer{
+    grid-column: span 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    color: rgb(63, 100, 113);
+}
+model-viewer{
+    width: 100%;
+    height: 100%;
+}
